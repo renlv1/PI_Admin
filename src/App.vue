@@ -22,6 +22,7 @@
 <script>
 export default {
   created () {
+      // 注释
     this.$store.dispatch('getUserInfo')
 
     // 解决vuex刷新数据丢失

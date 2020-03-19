@@ -74,7 +74,7 @@ export default {
       return text
     },
     // 时间过滤
-    $changeDate(time, str = '-', type = 1) {
+    $changeaDte(time, str = '-', type = 1) {
       if (!time) return ''
 
       function ifTime(value) { // 判断时间是否是个位数
@@ -83,7 +83,6 @@ export default {
         }
         return value
       }
-
       let newTime = new Date(time)
       let day = newTime.getDate()
       let month = newTime.getMonth() + 1

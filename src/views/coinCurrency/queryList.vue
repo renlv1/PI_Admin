@@ -80,6 +80,7 @@
     </div>
     <list-wrap :list="listData" :total="totalData" @change="getData" :pageSize="pageSize">
       <div class="web-table">
+
         <table>
           <tr class="thead">
             <td style="width: 6%">ID</td>
